@@ -1,0 +1,34 @@
+/* colors */
+
+:root {
+    --blue-color: #f7a43e;
+    --secondary-color: #e16d00;
+    --black-color: #1f1f1f;
+    --background-color: rgb(252, 243, 228);
+    --text-color-title: #6a6e83;
+    --text-color-text: #a88bce;
+    --muted-color: #fcd18b;
+}
+
+
+/* font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --fontOpen: "Open Sans", sans-serif;
+    --fontFranclin: "Libre Franklin", sans-serif; 
+}
+
+/* font-size */
+:root {
+    --XS: 15px ;
+    --S: 20px;
+    --L: 25px;
+    --M: 30px;
+    --XL: 35px;
+
+}

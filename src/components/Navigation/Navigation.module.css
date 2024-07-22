@@ -1,0 +1,39 @@
+.navbar {
+    opacity: 0.8;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    color: white;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;
+  scroll-margin-top: 1em;
+  z-index: 100;
+   margin: -10px 0 0 0;
+  }
+  .navItem {
+    margin-left: 1.5rem;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  .navLink:hover {
+    background-color: #2b7a78;
+    border-radius: 15px;
+    color: white;
+  }
+  .active {
+    padding: 1rem 2rem;
+    background-color:#2B7a78 ;
+    border-radius: 15px;
+    color: white;
+  }
+  .navbarNav{
+    display: flex;
+      justify-content: space-between;
+    align-items: center;
+  }

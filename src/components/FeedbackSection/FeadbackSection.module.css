@@ -1,0 +1,59 @@
+.title {
+    font-size: var(--L);
+    font-family: var(--fontFranclin);
+    color: black;
+
+}
+
+.section {
+    background-image:url(./img/forForm.webp);
+    background-size: cover;
+   
+   
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 100px 150px 100px;
+
+    border-top: 2px solid var(--secondary-color);
+    
+    /* border-top-color: red ; */
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--muted-color)
+    ;padding: 55px 80px;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgb(253, 253, 253),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    z-index: 5;
+    font-size: var(--S);
+    font-family: var(--fontOpen);
+}
+
+.control {
+   
+    padding: 10px 15px;
+     border: 1px;
+    border-radius: 10px;
+}
+.container{
+    box-shadow:
+    inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgb(253, 253, 253),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.menuControl {
+     padding: 10px 15px;
+}

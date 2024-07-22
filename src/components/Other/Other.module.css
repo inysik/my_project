@@ -1,0 +1,50 @@
+.boxOther{
+    display: flex;
+    gap: 20px;
+    padding: 30px 30px;
+    background-color: var(--background-color);
+    height: 450px;
+    justify-content: center;
+}
+
+.otherCard{
+    border: 1px solid var(--muted-color);
+    background-color: var(--muted-color);
+    font-family: var(--fontOpen);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    box-shadow:
+    inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgb(253, 253, 253),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    color: var(--secondaru-color);
+    ;
+
+}
+.otherCard:hover{
+    width: 25%;
+    height: 90%;
+    font-size: 20px;
+    border: 3px solid #def2f1;
+    padding: 10px;
+
+}
+
+.header{
+    font-size: 20px;
+}
+.paragraph{
+    font-size: 15px;
+    
+}
+.date{
+    text-align: end;
+    font-size: var(--XS);
+    font-family: var(--fontOpen);
+    font-style: italic;
+    
+}

@@ -1,0 +1,43 @@
+.bannerTop {
+    background-color: var(--background-color);
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header {
+    /* font-family: var(--fontFranclin);
+    font-size: var(--M);
+    line-height: var(--XL);
+    font-weight: 300;
+    text-align: end; */
+    /* margin-top:-150px ; */
+    color: burlywood;
+    opacity: 0.8;
+    line-height: 60px;
+    /* transform: translate(-30px, 500px); */
+    font-family: var(--fontFranclin);
+    font-size: 50px;
+   
+    font-weight: 300;
+    text-align: right;
+}
+
+.boxParagraph {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+    padding: 10px 20px;
+    border-right: 2px solid var(--secondary-color);
+
+}
+
+
+
+.paragraph {
+    color: var(--black-color);
+    font-size:var(--S) ;
+    font-family: var(--fontOpen);
+}
